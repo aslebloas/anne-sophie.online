@@ -1,0 +1,259 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  font-size: 100%;
+  font: inherit;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  vertical-align: baseline;
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+header {
+  display: none;
+}
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0)),
+    url("images/bg-clouds.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+#header {
+}
+
+#container {
+  flex-basis: auto;
+  max-width: 700px;
+  margin: auto;
+  padding-top: 10%;
+}
+
+#footer {
+  flex-basis: auto;
+  bottom: 0;
+  position: fixed;
+  text-align: center;
+  padding: 3%;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+h1 {
+  font-size: 30px;
+  padding-bottom: 3%;
+}
+h2 {
+  font-size: 20px;
+}
+
+p {
+  display: inline-flex;
+}
+
+.container-icons-1,
+.container-icons-2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-icons-1 a {
+  flex: 1;
+  align-content: stretch;
+  font-size: 45px;
+  padding: 10% 1%;
+}
+
+.container-icons-2 a {
+  flex: 1;
+  align-content: stretch;
+  font-size: 45px;
+  padding: 10% 1%;
+}
+
+.clear {
+  clear: both;
+}
+.sticky {
+}
+.bypostauthor {
+}
+.wp-caption {
+}
+.wp-caption-text {
+}
+.gallery-caption {
+}
+.alignright {
+}
+.alignleft {
+}
+.aligncenter {
+}
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+}
+
+@media (min-width: 538px) {
+  #footer {
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+}
+
+@media (max-height: 780px) {
+  .container-icons-1,
+  .container-icons-2 {
+    max-width: 250px;
+    margin: auto;
+  }
+
+  .container-icons-1 a {
+    padding: 5% 1%;
+  }
+
+  .container-icons-2 a {
+    padding: 5% 1%;
+  }
+}
+
+@media (max-height: 780px) and {
+  .container-icons-1,
+  .container-icons-2 {
+    max-width: 250px;
+    margin: auto;
+  }
+
+  .container-icons-1 a {
+    padding: 5% 1%;
+  }
+
+  .container-icons-2 a {
+    padding: 5% 1%;
+  }
+}
